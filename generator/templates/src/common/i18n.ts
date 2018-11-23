@@ -10,7 +10,7 @@ import path from 'path';
 
 function loadResource(): LocaleMessages {
     const resources: LocaleMessages = {};
-    const files = require.context('~/locales', false, /.json$/);
+    const files = require.context('@/locales', false, /.json$/);
     for (const filename of files.keys()) {
         const name = path.basename(filename, '.json');
         if (localesList.includes(name)) {

@@ -15,17 +15,23 @@ To add klkspa support to your vue-cli-powered project, run the following command
 ```
 step 1:
 
-use vue-cli3 to create project ( choose feature : babel ,typescript , router, vuex, css-Preprocessor)
+use vue-cli3 to create project , choose feature : babel ,typescript , router, vuex, css-Preprocessor( sass )
 
 step 2:
 
 vue add klkspa
 
-(add project git name)
-```
+(add project git name so it can auto-generate deploy.sh for your online deployment)
 
 ```
-other explanation:
+## other explanation:
 
-change @/assets/scss/_variable.scss will modify theme_color
+1, theme color change modify @/assets/scss/variable.scss
+2, add node to tsconfig.json types:
+
+```
+"types": [
+    "webpack-env",
+    "node"
+],
 ```
