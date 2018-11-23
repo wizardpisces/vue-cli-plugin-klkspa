@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <g fill="none" fill-rule="nonzero">
+        <path fill="#FFF" fill-opacity="0" d="M0 0h32v32H0z"/>
+        <path fill="currentColor" d="M16 30C8.268 30 2 23.732 2 16S8.268 2 16 2s14 6.268 14 14-6.268 14-14 14zm-5.995-7.195a.809.809 0 0 0 .257-.042l8.981-3.01c.24-.08.43-.27.51-.51l3.01-8.982A.806.806 0 0 0 21.74 9.24l-8.98 3.011c-.241.08-.43.27-.51.51L9.24 21.74a.806.806 0 0 0 .765 1.065z"/>
+    </g>
+</svg>
