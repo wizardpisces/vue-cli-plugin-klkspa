@@ -1,6 +1,6 @@
-# vue-cli-plugin-rx
+# vue-cli-plugin-klkspa
 
-Vue CLI 3 plugin for adding RxJS support to project using vue-rx.
+Vue CLI 3 plugin for adding support for klook ts spa
 
 ## How to Use
 
@@ -10,7 +10,7 @@ You need Vue CLI 3 installed globally as a pre-requisite. If you don't have it, 
 npm install -g @vue/cli
 ```
 
-To add RxJS support to your vue-cli-powered project, run the following command in the project root folder:
+To add klkspa support to your vue-cli-powered project, run the following command in the project root folder:
 
 ```
 step 1:
