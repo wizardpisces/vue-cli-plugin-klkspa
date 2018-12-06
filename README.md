@@ -10,7 +10,7 @@ You need Vue CLI 3 installed globally as a pre-requisite. If you don't have it, 
 npm install -g @vue/cli
 ```
 
-To add klkspa support to your vue-cli-powered project, run the following command in the project root folder:
+To add klkspa support to your vue-cli-powered project, run the following steps in the project root folder:
 
 ```
 step 1:
@@ -26,8 +26,8 @@ vue add klkspa
 ```
 ## other explanation:
 
-1, theme color change modify @/assets/scss/variable.scss
-2, add node to tsconfig.json types:
+1. theme color change modify @/assets/scss/variable.scss
+2. add node to tsconfig.json types:
 
 ```
 "types": [
