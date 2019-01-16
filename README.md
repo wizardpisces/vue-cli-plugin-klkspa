@@ -1,6 +1,15 @@
 # vue-cli-plugin-klkspa
 
-Vue CLI 3 plugin for adding support for klook ts spa
+Vue CLI 3 scalfold plugin for klook typescript spa
+
+## Feature
+
+* axios wrapper
+* auto online deployment
+* i18n integrated
+* svg sprite
+* basic utils and css
+* ts store prototype
 
 ## Feature
 
@@ -19,7 +28,7 @@ You need Vue CLI 3 installed globally as a pre-requisite. If you don't have it, 
 npm install -g @vue/cli
 ```
 
- use vue-cli3 choose feature : babel ,typescript , router, vuex, css-Preprocessor( sass:
+ use vue-cli3 choose feature : babel ,typescript , router, vuex, css-Preprocessor( sass ):
 
 
 ```
