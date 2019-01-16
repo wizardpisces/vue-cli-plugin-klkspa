@@ -2,6 +2,15 @@
 
 Vue CLI 3 plugin for adding support for klook ts spa
 
+## Feature
+
+* axios wrapper
+* auto online deployment
+* i18n integrated
+* svg sprite
+* basic utils and css
+* ts store prototype
+
 ## How to Use
 
 You need Vue CLI 3 installed globally as a pre-requisite. If you don't have it, please run
@@ -10,20 +19,26 @@ You need Vue CLI 3 installed globally as a pre-requisite. If you don't have it, 
 npm install -g @vue/cli
 ```
 
-To add klkspa support to your vue-cli-powered project, run the following steps in the project root folder:
+ use vue-cli3 choose feature : babel ,typescript , router, vuex, css-Preprocessor( sass:
+
 
 ```
-step 1:
+vue create ${project_git_name}
+```
 
-use vue-cli3 to create project , choose feature : babel ,typescript , router, vuex, css-Preprocessor( sass )
-
-step 2:
-
+```
 vue add klkspa
-
-(add project git name so it can auto-generate deploy.sh for your online deployment)
-
 ```
+
+## Deployment
+
+add project git name so it can auto-generate deploy.sh for your online deployment,use 
+```
+sh deploy.sh
+```
+to deploy project ,make sure to have '/srv/builds' directory prepared
+
+
 ## other explanation:
 
 1. theme color change modify @/assets/scss/variable.scss
