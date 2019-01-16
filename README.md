@@ -1,6 +1,6 @@
 # vue-cli-plugin-klkspa
 
-Vue CLI 3 plugin for adding support for klook ts spa
+Vue CLI 3 scalfold plugin for klook typescript spa
 
 ## Feature
 
