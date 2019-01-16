@@ -38,6 +38,8 @@ sh deploy.sh
 ```
 to deploy project ,make sure to have '/srv/builds' directory prepared
 
+[spa nginx configuration](https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations) 
+
 
 ## other explanation:
 
