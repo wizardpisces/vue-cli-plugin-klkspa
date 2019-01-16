@@ -11,15 +11,6 @@ Vue CLI 3 scalfold plugin for klook typescript spa
 * basic utils and css
 * ts store prototype
 
-## Feature
-
-* axios wrapper
-* auto online deployment
-* i18n integrated
-* svg sprite
-* basic utils and css
-* ts store prototype
-
 ## How to Use
 
 You need Vue CLI 3 installed globally as a pre-requisite. If you don't have it, please run
