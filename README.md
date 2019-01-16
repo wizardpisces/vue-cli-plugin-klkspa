@@ -19,7 +19,7 @@ You need Vue CLI 3 installed globally as a pre-requisite. If you don't have it, 
 npm install -g @vue/cli
 ```
 
- use vue-cli3 choose feature : babel ,typescript , router, vuex, css-Preprocessor( sass:
+ use vue-cli3 choose feature : babel ,typescript , router, vuex, css-Preprocessor( sass ):
 
 
 ```
