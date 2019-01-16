@@ -6,9 +6,3 @@
 html, body, #app {
     height: 100%;
 }
-
-// https://stackoverflow.com/questions/12304012/preventing-default-context-menu-on-longpress-longclick-in-mobile-safari-ipad
-html {
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-}
