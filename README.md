@@ -1,6 +1,6 @@
 # vue-cli-plugin-klkspa
 
-Vue CLI 3 scalfold plugin for klook typescript spa
+Vue CLI 3 scalfold plugin for klook typescript spa  ( node v8+ )
 
 ## Feature
 
