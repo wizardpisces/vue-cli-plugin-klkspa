@@ -34,12 +34,9 @@ vue add klkspa
 
 add project git name so it can auto-generate deploy.sh for your online deployment,use 
 ```
-sh deploy.sh
+cd /srv/builds/{project_git_name} && sh deploy.sh origin/master
 ```
-to deploy project ,make sure to have '/srv/builds' directory prepared
-
 [more server configuration](https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations) 
-
 
 ## other explanation:
 
