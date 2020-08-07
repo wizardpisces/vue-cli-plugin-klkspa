@@ -26,7 +26,7 @@ fi
 
 if [ ! -d "$buildDir" ]; then
     cd /srv/builds/
-    git clone git@bitbucket.org:klook/<%=options.project_git_name%>.git
+    git clone git@bitbucket.org:<%=options.project_git_name%>.git
 fi
 cd $buildDir
 git checkout -- .
